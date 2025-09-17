@@ -1,0 +1,25 @@
+.ora{
+    padding: 20px;
+}
+
+th{
+    color: black;
+}
+
+td, th{
+    border: 3px solid rgb(250, 231, 215);
+    padding: 15px;
+}
+
+td{
+    color: white;
+    background-color: lightseagreen;
+}
+
+table{
+    margin: 0px auto;
+    border: 5px solid peachpuff;
+    text-align: center;
+    background-color: rgb(180, 178, 178);
+    border-collapse: collapse;
+}
