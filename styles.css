@@ -11,7 +11,7 @@ td, th{
     padding: 15px;
 }
 
-td{
+tbody{
     color: white;
     background-color: lightseagreen;
 }
@@ -22,4 +22,33 @@ table{
     text-align: center;
     background-color: rgb(180, 178, 178);
     border-collapse: collapse;
+}
+
+sub{
+    color: white;
+    font-size: 0.;
+}
+
+body{
+    font-size: 1.2em;
+}
+
+tfoot{
+    background-color: rgb(175, 175, 175);
+    border: 5px solid red;
+}
+
+tfoot td{
+    border: 5px solid gainsboro;
+}
+
+.egesz{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+td:hover, th:hover{
+    background-color: orange;
 }
